@@ -1,10 +1,10 @@
-# Homebrew cask template. The release workflow fills in 1.0.0 and 56543a1d2f296c8c1e45bc7f2e157f4aabbfd4cd876d8195e6773df1f24d55b4 and
+# Homebrew cask template. The release workflow fills in the version and checksum placeholders and
 # pushes the result to https://github.com/ranefattesingh/homebrew-tap as Casks/courier.rb.
 #
 # Install:  brew install --cask ranefattesingh/tap/courier
 cask "courier" do
-  version "1.0.0"
-  sha256 "56543a1d2f296c8c1e45bc7f2e157f4aabbfd4cd876d8195e6773df1f24d55b4"
+  version "1.0.1"
+  sha256 "c2df0e5144e0a569b62b02e61625faa8414b9b6303cea380f717acd0ef15cebc"
 
   url "https://github.com/ranefattesingh/courier/releases/download/v#{version}/courier-macos-universal.zip"
   name "Courier"
