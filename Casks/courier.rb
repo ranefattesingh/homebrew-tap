@@ -3,8 +3,8 @@
 #
 # Install:  brew install --cask ranefattesingh/tap/courier
 cask "courier" do
-  version "1.0.1"
-  sha256 "c2df0e5144e0a569b62b02e61625faa8414b9b6303cea380f717acd0ef15cebc"
+  version "1.0.2"
+  sha256 "6139b375d4348ceba42581bb2d57ed5e6be96d72a67cff72f68a8fb513711d04"
 
   url "https://github.com/ranefattesingh/courier/releases/download/v#{version}/courier-macos-universal.zip"
   name "Courier"
